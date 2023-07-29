@@ -1,0 +1,29 @@
+@import './base.scss';
+
+.container{
+    width: $w;
+    height: $h;
+    padding: 10px;
+    background-color: $bg;
+    @include shadow;
+
+    input{
+        margin: 15px ;
+    }
+
+    span{
+        font-style: 'italic';
+    }
+}
+
+.todoContainer{
+    background-color: rgba(127, 130, 128, 0.173);
+    width: $w;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid;
+    gap: 10px;
+    @include shadow;
+    
+}
