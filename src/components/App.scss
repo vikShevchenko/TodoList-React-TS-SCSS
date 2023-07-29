@@ -27,3 +27,22 @@
     @include shadow;
     
 }
+
+    @media screen and (max-width: 500px) {
+       .container{
+        width: 100%;
+        border-radius: 0;
+       }
+       body{
+        margin: 0;
+       }
+       .todoContainer{
+        width: 100%;
+        border-radius: 0;
+       }
+       span{
+        max-width: 70%;
+        word-wrap: break-word;
+       }
+    }
+
